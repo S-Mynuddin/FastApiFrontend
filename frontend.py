@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 #API_URL = "http://34.226.152.222:8000/predict"  # your FastAPI endpoint API_URL = "http://localhost:8000/predict"
-API_URL = "http://localhost:8000/predict"  # your FastAPI endpoint 
+API_URL = "https://fastapibackend-z4e6.onrender.com/predict"  # your FastAPI endpoint 
 
 
 st.title("Insurance Premium Category Predictor")
